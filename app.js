@@ -4,7 +4,6 @@ const path = require('path');
 const router = express.Router();
 
 const port = process.env.PORT || 4000;
-require('aframe');
 
 
 router.get('/',function(req,res){
